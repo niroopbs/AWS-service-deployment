@@ -22,9 +22,7 @@ Finally, I have deployed via Blue-Green deployment soloution and details as foll
 # I have used Blue/Green Deployment strategy with AWS terraform Code Deploy
 Blue green deployment reduce the downtime and risk
 
-<img width="373" alt="Deployment Architecture" src="https://github.com/niroopbs/AWS-service-deployment/assets/50316430/bce884cd-bc06-4edf-9b89-0db8ed334228">
-
-![Blue green deployment](https://github.com/niroopbs/AWS-service-deployment/assets/50316430/971adff4-5347-4a05-af1b-855fcf431ca8)
+![](https://github.com/niroopbs/AWS-service-deployment/blob/main/images/Deployment%20Architecture.png)
 
 
 
