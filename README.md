@@ -63,4 +63,4 @@ we can distrubuted the traffic according the distrubtion map and rollout the dep
 
 I tried to deploy with my approach. if anything missed to add on here. Please let me know, I can improve the deployment and learn with it.
 
-THANK YOU :) 
+THANK YOU :) :) 
