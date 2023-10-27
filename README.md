@@ -1,10 +1,10 @@
 ## Overview
 
-## Choosing best solution:
-1. I have tried 3 types of deployment Stratergy for the task
+## Choosing the best solution:
+1. I tried 3 types of deployment Strategies for the task
      * Deployment using Lambda function 
      * Blue-Green Deployment 
-     * ElasticBean deployment 
+     * Elastic Beanstalk deployment 
 
 I have followed the below documents to deployment. 
 
