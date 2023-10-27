@@ -55,7 +55,8 @@ for i in `seq 1 10`; do curl app-lb-606515966.us-east-2.elb.amazonaws.com; done
 
 <img width="893" alt="output" src="https://github.com/niroopbs/AWS-service-deployment/assets/50316430/d99daa6d-5aab-4ded-8faf-46222b1a7263">
 
-<img width="893" alt="output" src="https://github.com/niroopbs/AWS-service-deployment/assets/50316430/871c2768-3235-4ab5-9d07-8f42e2ad6181">
+![Split 50%](https://github.com/niroopbs/AWS-service-deployment/assets/50316430/b4db6e05-048a-49bb-8f8f-f75e01cae7bb)
+
 
 
 Change the LB name once it's deployed
