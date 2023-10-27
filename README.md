@@ -1,13 +1,12 @@
 ## Overview
 
-## Choosing best solution:
-1. I have tried 3 types of deployment Stratergy for the task
+## Choosing the best solution:
+1. I tried 3 types of deployment Strategies for the task
      * Deployment using Lambda function 
      * Blue-Green Deployment 
-     * ElasticBean deployment 
+     * Elastic Beanstalk deployment 
 
- 
-I have followed the below documents to deployment. 
+I have followed the below documents for deployment. 
 
  https://docs.aws.amazon.com/whitepapers/latest/overview-deployment-options/bluegreen-deployments.html
 
@@ -17,20 +16,18 @@ I have followed the below documents to deployment.
 
  https://aws.amazon.com/blogs/startups/how-to-use-blue-green-deployement-on-aws/
 
-Finally, I have deployed via Blue-Green deployment soloution and details as follow. 
+Finally, I have deployed via the Blue-Green deployment solution, and the details are as follows. 
 
-# I have used Blue/Green Deployment strategy with AWS terraform Code Deploy
-Blue green deployment reduce the downtime and risk
+# I have used the Blue/Green Deployment strategy with AWS Terraform Code Deploy
+Blue-green deployment reduces downtime and risk
 
+we are shifting the traffic from one to another and if we discover a problem in the new deployment we can always switch to the previous version. 
 
-
-we are shifting the traffic from one to another and if we discover the problem in the new deployment and we can always switch to previous version. 
-
-## In this task I'm using following Infra setup:
+## In this task I'm using the following Infra setup:
 1. VPC
-2. two private subnet with default route NAT gateway and I have launched the EC2 instance with the subnet. 
-3. Also I have created the Application Load Balancer (ALB) in public subnet wit the default route to the Internal Gateway. 
-4. For the ALB at least two subnet in two different Availability Zones
+2. two private subnets with default route NAT gateway and I have launched the EC2 instance with the subnet. 
+3. Also I have created the Application Load Balancer (ALB) in the public subnet with the default route to the Internal Gateway. 
+4. For the ALB at least two subnets in two different Availability Zones
 5. I have created the user data script once the EC2 machine Boots up. 
 
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
@@ -47,7 +44,7 @@ Amazon Web Services offers services that enable organizations to leverage the po
 4. terraform plan
 5. terraform apply 
 
-this will ask provide the tarrfic distribution as per the example green-80, so that it will rout the traffic between Frank 20% and Carol 80% will be distrubted. 
+this will ask to provide the traffic distribution as per the example green-80 so that it will route the traffic between Frank 20% and Carol 80% will be distributed. 
 
 ## run the cmd to show the output
 for i in `seq 1 10`; do curl app-lb-606515966.us-east-2.elb.amazonaws.com; done
