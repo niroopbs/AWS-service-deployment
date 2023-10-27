@@ -32,6 +32,5 @@ Amazon Web Services offers services that enable organizations to leverage the po
 
 ![Alt text](output.jpg)
 
-![alt text](https://github.com/niroopbs/AWS-service-deployment/main/image-1.png?raw=true)
+![AWS deployment network](https://github.com/niroopbs/AWS-service-deployment/assets/50316430/76a494e1-2013-4445-8587-8934785e6528)
 
-![alt text](https://github.com/niroopbs/AWS-service-deployment/blob/main/image-1.png?raw=true)
